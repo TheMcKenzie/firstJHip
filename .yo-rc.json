@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "entidades",
+    "packageName": "pruebas_entidades",
+    "packageFolder": "pruebas_entidades",
+    "authenticationType": "session",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "50d8227003e50912c6f97d2b82442420c12551d6",
+    "testFrameworks": [
+      "cucumber"
+    ]
+  }
+}

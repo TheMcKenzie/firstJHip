@@ -1,0 +1,6 @@
+entidades-sonar:
+  container_name: entidades-sonar
+  image: sonarqube:4.5.6
+  ports:
+    - "9000:9000"
+    - "9092:9092"
