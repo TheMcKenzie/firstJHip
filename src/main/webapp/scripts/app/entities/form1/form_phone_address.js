@@ -3,7 +3,7 @@
 angular.module('entidadesApp')
     .config(function ($stateProvider) {
         $stateProvider
-            .state('person', {
+            .state('form1', {
                 parent: 'entity',
                 url: '/form1',
                 data: {
@@ -20,3 +20,5 @@ angular.module('entidadesApp')
                 }
             })
     });
+
+

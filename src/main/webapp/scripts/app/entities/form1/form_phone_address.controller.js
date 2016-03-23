@@ -10,7 +10,25 @@ angular.module('entidadesApp')
             });
         };
         $scope.loadAll();
-
+        
+        var names = [];
+        $scope.saveToAddressArray = function () {
+        	console.log("In function");
+        	//names.push(document.getElementById("address_na"));//.value + ",";
+        	//console.log("The names "+String(names));
+        	$scope.address = {
+                name: null
+            };
+        };
+        
+        $scope.saveToPhonesArray = function () {
+        	console.log("In function");
+        	//var phones = document.getElementById("phone_num").value;
+        	//console.log("The phones "+phones);
+        	$scope.phone = {
+                number: null
+            };
+        };
 
         $scope.refresh = function () {
             $scope.loadAll();
@@ -18,9 +36,18 @@ angular.module('entidadesApp')
         };
 
         $scope.clear = function () {
+        	
             $scope.person = {
                 name: null,
                 id: null
             };
+            $scope.address = {
+                name: null
+            };
+            $scope.phone = {
+                number: null
+            };
         };
+        
+        
     });
